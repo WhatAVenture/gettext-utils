@@ -6,7 +6,7 @@ const fs = require('fs');
 const gettextParser = require("gettext-parser");
 
 const args = optimist.argv;
-const localesPath = `${args.locales || 'locales'}/*.po`;
+const localesPath = `${args.localesPath || 'locales'}/*.po`;
 const inputCharset = `${args.inputCharsets || 'UTF-8'}`;
 const filenameToLanguageRegex = `${args.filenameToLanguageRegex || '\\.([^\\.-]+)(.*)'}`;
 
