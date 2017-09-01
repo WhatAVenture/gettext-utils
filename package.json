@@ -1,0 +1,29 @@
+{
+  "name": "gettext-utils",
+  "version": "1.0.0",
+  "description": "A collection of helper functions for processing gettext files.",
+  "bin": {
+    "gettext-utils-fix-header": "./bin/fix-header.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whataventure/gettext-utils.git"
+  },
+  "keywords": [
+    "lingohub",
+    "gettext"
+    "translation",
+    "i18n"
+  ],
+  "author": "WhatAVenture GmbH",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/whataventure/gettext-utils/issues"
+  },
+  "homepage": "https://github.com/whataventure/gettext-utils#readme",
+  "dependencies": {
+    "gettext-parser": "^1.3.0",
+    "glob": "^7.1.2",
+    "optimist": "^0.6.1"
+  }
+}
